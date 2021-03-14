@@ -12,3 +12,17 @@
 .friends-display-link i:last-child {
     padding-left: 30px;
 }
+
+.friends-screen__channel header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.friends-screen__channel span {
+    font-weight: 400;
+}

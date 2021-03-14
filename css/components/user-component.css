@@ -1,13 +1,23 @@
-.user-component {
-    display: flex;
-}
-
 .user-component>div {
     display: flex;
     align-items: center;
 }
 
-.user-component img:first-child {
+.user-component>div>div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.user-component>div>div>span:last-child {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component>div>div>span:last-child i {
+    padding-left: 5px;
+}
+
+.user-component img {
     width: 80px;
     height: 80px;
     border-radius: 40px;
@@ -23,4 +33,11 @@
     margin-top: 8px;
     font-size: 17px;
     color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component--sm img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin-right: 20px;
 }

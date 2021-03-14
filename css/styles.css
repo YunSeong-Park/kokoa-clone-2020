@@ -21,4 +21,5 @@ body {
 main {
     position: relative;
     top: 42px;
+    padding: 0px 20px;
 }
