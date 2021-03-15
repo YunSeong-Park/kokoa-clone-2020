@@ -41,3 +41,21 @@
     border-radius: 30px;
     margin-right: 20px;
 }
+
+.user-component >div>div>div>span:first-child {
+    color: rgba(0,0,0,0.5)
+}
+
+.user-component >div>div>div>span:last-child {
+    background-color: tomato;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 8px;
+}
