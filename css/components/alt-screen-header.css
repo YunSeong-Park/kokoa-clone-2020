@@ -10,10 +10,11 @@
 }
 
 .alt-header__column {
-    width:33%;
+    width: 33%;
     display: flex;
     justify-content: center;
 }
+
 .alt-header__column:first-child {
     justify-content: flex-start;
 }
